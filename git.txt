@@ -1,0 +1,34 @@
+git config -l
+Q to exit
+live website>>
+repo>>settings>>pages>>link
+cmd>> repo directory>> code .
+>> will open the terminal
+settings >> add colbaortore>> emial of the collaborator>> will send the inviation link
+
+github project link>> code drop down>> https link >> cmd >> git clone https link
+fork>>
+go to github repo you want to fork>> colne 
+branch>
+git branch >> will show the branch
+git checkout main >> to switch to existing branch
+git checkout -b master >> will create ac new branch and switch to master
+
+*error: the current branch master has no no upstream branch
+
+git push --set-upstream origin master
+
+User 2 has now a new branch called master
+user 1 will have no idea about this
+
+
+Go to github repo and do a pull request with a comment
+user 1 will receive a notifiction
+user 1 can review and merge
+
+if  user 1 makes any changes >>git pull>> can will give us the updated code 
+
+live website>>
+settings>pages>>branch>>select>>save 
+Wait for few minutes
+

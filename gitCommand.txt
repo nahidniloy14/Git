@@ -1,0 +1,96 @@
+----------Create New Repository-----------------
+
+cd "file location"
+#ls[to check files which are preseny in the folder]
+git init[initialize it as git repository]
+#git status[to check origin and modification]
+git add file name [add file to staging]
+git add * [add all file to staging]
+git commit -m "message"
+git remote add origin 'repository URL'
+#git remote set-url origin 'repository URL'[git remote add origin 'repository URL' is this does not work]
+git push origin master [default origin]
+
+
+
+---------Clone-----------[To have all the code in your machine]
+
+git clone "git directory"[we can download it from the clone/directory or would be provied by other user ]
+git add *
+git commit-m "message"
+git remote add origin 'repository URL'
+git push origin master
+
+------PULL--------[To have updated code in your machine]
+git pull origin master
+-----------------------------------------[done]
+#git status [to check origin and modification]
+
+git add *
+
+git commit-m "message"
+
+git push origin master
+-----------Ready for pull again---------
+
+
+-------branch----------------
+
+git checkout -b develop 
+[a new branch named develop will be created so that develop branch and master branch does not have any conflict between them]
+
+git branch [to see your current branch]
+
+# *develop
+   main
+
+#git status
+
+git add *
+
+git commit-m "message"
+
+git push origin develop
+
+--------[done]--------------------------
+git pull origin master [pull from develop branch]
+
+
+
+
+
+------Delete Branch------
+
+git branch -d develop
+
+
+---------MERGE---------
+
+------Switch between branches------
+
+git checkout master/develop
+
+git merge develop[if you are in master]
+
+----------[done]-----------
+
+-----MERGE CONFLICT-----
+
+Conflict[content]: in this log we will be instructed clearly that from where the code is struggling to merge and we have to solve that accordingly
+
+
+-------------RESET-----------
+
+get fetch origin
+
+git reset --hard origin/master
+
+
+
+
+
+
+
+
+
+
